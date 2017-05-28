@@ -1,7 +1,5 @@
 package com.qf.plug.tool;
-import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.Toolkit;
 import java.awt.event.MouseEvent;
@@ -9,11 +7,7 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
  
 import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPasswordField;
 import javax.swing.JProgressBar;
-import javax.swing.JTextField;
 import javax.swing.SwingConstants;
  
 public class ProgressDialog extends JDialog implements MouseListener,

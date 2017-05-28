@@ -6,8 +6,12 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-public class ClearImageHelper
-{
+/**
+ * 工具类，用来清除图片中的部分干扰项
+ * @author qinfei
+ *
+ */
+public class ClearImageHelper{
 
 	public static void main(String[] args) throws IOException
 	{
