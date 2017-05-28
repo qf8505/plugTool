@@ -1,0 +1,150 @@
+{
+    "url": "https://frontier.beij.95306.cn/gateway/hydzsw/Dzsw/login_bur.jsp",
+    "username": "j_username",
+    "password": " j_password",
+    "image": "captchaImage",
+    "captcha": "j_captcha",
+    "eletype": "class",
+    "element": "a1",
+    "time": "20",
+    "oper": [
+        {
+            "eletype": "id",
+            "element": "hid869",
+            "oper": "click",
+            "time": "30",
+            "sleep":"2000"
+        },
+        {
+            "eletype": "id",
+            "element": "cid3828",
+            "oper": "click",
+            "time": "40",
+            "sleep":"2000"
+        },
+        {
+            "eletype": "frame",
+            "element": "navTab",
+            "oper": "switch",
+            "time": "3"
+        },
+        {
+            "eletype": "frame",
+            "element": "xq1",
+            "oper": "switch",
+            "time": "3"
+        },
+        {
+            "eletype": "id",
+            "element": "keyword",
+            "oper": "201611PY360232",
+            "time": "30"
+        },
+        {
+            "eletype": "classs",
+            "element": "ac_results",
+            "oper": "click",
+            "time": "30",
+            "sleep":"5000"
+        },
+        {
+            "eletype": "id",
+            "element": "dddxtz",
+            "oper": "click",
+            "time": "30"
+        },
+        {
+            "eletype": "id",
+            "element": "qqds",
+            "oper": "clear",
+            "time": "20",
+            "sleep":"2000"
+        },
+        {
+            "eletype": "id",
+            "element": "qqds",
+            "oper": "180",
+            "time": "20",
+            "sleep":"2000"
+        },
+        {
+            "eletype": "id",
+            "element": "submitBtn",
+            "oper": "click",
+            "time": "15"
+        },
+        {
+            "eletype": "class",
+            "element": "ui-button-text",
+            "oper": "click",
+            "time": "30",
+            "sleep":"5000"
+        },
+        {
+            "eletype": "frame",
+            "element": "defaultContent",
+            "oper": "switch",
+            "time": "10"
+        },
+        {
+            "eletype": "frame",
+            "element": "navTab",
+            "oper": "switch",
+            "time": "3"
+        },
+        {
+            "eletype": "script",
+            "element": "$('.content').css('overflow-y','auto').parent('body').css('overflow','hidden')",
+            "oper": "jquery",
+            "time": "5",
+            "sleep":"1000"
+        },
+        {
+            "eletype": "script",
+            "element": "$('.content').scrollTop(500)",
+            "oper": "jquery",
+            "time": "5",
+            "sleep":"1000"
+        },
+        {
+            "eletype": "frame",
+            "element": "xq1",
+            "oper": "switch",
+            "time": "3"
+        },
+        {
+            "eletype": "id",
+            "element": "cb_grid",
+            "oper": "click",
+            "time": "10",
+            "sleep":"5000"
+        },
+        {
+            "eletype": "cssSelector",
+            "element": "span.ui-icon.reportbtn",
+            "oper": "click",
+            "time": "20",
+            "sleep":"2000"
+        },
+        {
+            "eletype": "id",
+            "element": "rdAgree",
+            "oper": "click",
+            "time": "20",
+            "sleep":"3000"
+        },
+        {
+            "eletype": "cssSelector1",
+            "element": "button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only",
+            "oper": "click",
+            "time": "20",
+            "sleep":"2000"
+        },
+        {
+            "eletype": "frame",
+            "element": "defaultContent",
+            "oper": "switch",
+            "time": "10"
+        }
+    ]
+}
